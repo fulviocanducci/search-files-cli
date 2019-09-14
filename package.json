@@ -1,6 +1,6 @@
 {
   "name": "canducci-search-files-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Canducci Search Files CLI",
   "main": "canducci-search-files-cli.js",
   "preferGlobal": true,
@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/fulviocanducci/search-files-cli/issues"
   },
-  "homepage": "https://github.com/fulviocanducci/search-files-cli#readme"
+  "homepage": "https://github.com/fulviocanducci/search-files-cli#readme",
+  "dependencies": {}
 }
