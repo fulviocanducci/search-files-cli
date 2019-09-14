@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "Search Files CLI",
   "main": "search-files-cli.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "search-files": "./bin/search-files-cli.js"
+  },
+  "files": [
+    "./bin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fulviocanducci/search-files-cli.git"
@@ -16,7 +23,7 @@
     "cli"
   ],
   "author": "Fúlvio",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fulviocanducci/search-files-cli/issues"
   },
