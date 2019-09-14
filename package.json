@@ -1,14 +1,14 @@
 {
-  "name": "search-files-cli",
+  "name": "canducci-search-files-cli",
   "version": "1.0.0",
-  "description": "Search Files CLI",
-  "main": "search-files-cli.js",
+  "description": "Canducci Search Files CLI",
+  "main": "canducci-search-files-cli.js",
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "search-files": "./bin/search-files-cli.js"
+    "search-files": "./bin/canducci-search-files-cli.js"
   },
   "files": [
     "./bin"
@@ -22,7 +22,7 @@
     "files",
     "cli"
   ],
-  "author": "Fúlvio",
+  "author": "Fúlvio Cezar Canducci Dias",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fulviocanducci/search-files-cli/issues"
